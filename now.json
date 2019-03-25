@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "builds": [{ "src": "**/*.js", "use": "@now/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "/components/$1" }],
+  "alias": "custom-components"
+}
